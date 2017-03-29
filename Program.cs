@@ -29,13 +29,12 @@ namespace labOne
 
                 System.Console.WriteLine("Area: ");
                 
-            
 
                                 //Get user dimensions.
                
 
-                int lengthOne = int.Parse(lenEnter);
-                int widthOne = int.Parse(widEnter);
+                float lengthOne = float.Parse(lenEnter);
+                float widthOne = float.Parse(widEnter);
                
 
                 area = lengthOne * widthOne;
